@@ -3,3 +3,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.navbar {
+    background-color: #3C3744;
+}
+
+.navbar a {
+    color: white;
+}
