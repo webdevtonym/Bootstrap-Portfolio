@@ -1,7 +1,14 @@
+
 .jumbotron {
     background-color:black;
     /* background-image: url(/images/jumbo-bk.jpg); */
     background-repeat: no-repeat;
     background-size: contain;
+    /* padding-top: 190px; */
     
+}
+
+.line-sep {
+
+    border-bottom: 5px solid black;
 }
