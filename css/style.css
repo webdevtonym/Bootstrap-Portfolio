@@ -1,13 +1,7 @@
-.jumbotron img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar {
-    background-color: #3C3744;
-}
-
-.navbar a {
-    color: white;
+.jumbotron {
+    background-color:black;
+    /* background-image: url(/images/jumbo-bk.jpg); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
