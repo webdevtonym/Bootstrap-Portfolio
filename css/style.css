@@ -1,5 +1,5 @@
-
-.jumbotron {
+/* Jumbotron styling */
+#jumbo-main {
     background-color:black;
     /* background-image: url(/images/jumbo-bk.jpg); */
     background-repeat: no-repeat;
@@ -9,7 +9,19 @@
     
 }
 
-.jumbotron h1 {
+#contact {
+    background-color:black;
+    line-height: 3;
+}
+
+#resume {
+    background-color: white;
+    color: black;
+}
+
+
+
+h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
@@ -20,7 +32,18 @@
     font-family: 'Pacifico', cursive;
 }
 
+.margin-hr {
+
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 .line-sep {
 
     border-bottom: 5px solid black;
+}
+
+footer {
+    margin-top: auto;
+    height: 20vh;
 }

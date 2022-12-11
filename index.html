@@ -16,7 +16,10 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Ubuntu&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Anthony Mills Portfolio</title>
   </head>
@@ -24,7 +27,7 @@
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <!-- Navbar brand -->
-      <a class="navbar-brand  text-light" href="#">Anthony Mills</a>
+      <a class="navbar-brand text-light" href="#">Anthony Mills</a>
 
       <button
         class="navbar-toggler"
@@ -65,7 +68,8 @@
 
     <!-- Jumbotron main-->
     <section
-      class="jumbotron mt-5 mx-auto jumbotron-fluid text-center text-light"
+      id="jumbo-main"
+      class="jumbotron mt-5  mb-0 mx-auto jumbotron-fluid text-center text-light"
     >
       <img
         src="./images/portfolio-img.jpeg"
@@ -73,20 +77,36 @@
         class="img-responsive rounded-circle mb-4"
         alt="portfolio-image"
       />
-      <h1 class="display-4">Web Developer</h1>
-      <p class="lead mx-5">
-        My name is Anthony Mills and I am a Web Developer who specialises in
+      <h1 class="display-4" style="font-size: 5vw;">Web Developer</h1>
+      <p class="lead mx-5" >
+        I am a Web Developer who specialises in
         making great websites using HTML, CSS, Javascript and Bootstrap
       </p>
       <hr class="my-4" />
     </section>
     <!--Jumbotron end -->
 
-    <h2 id="work"
-    class="text-center mb-3">My Work</h2>
+    <!-- Jumbotron 2 About Me section-->
+    <div
+      id="about"
+      class="jumbotron jumbotron-fluid text-center text-dark bg-light mb-5 p-4"
+    >
+      <h1 class="display-4">About Me</h1>
+      <p class="lead"></p>
+
+      <p>My name is Anthony Mills, passionate about web development and technology. </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus dolore minima modi laudantium optio dolor atque aperiam voluptatibus. Qui pariatur illo quibusdam autem vitae sint nostrum, culpa sunt beatae!</p>
+      
+    </div>
+
+    <h2 id="work" class="text-center mb-3">My Work</h2>
+    <hr class="my-4 margin-hr" />
+
+    
 
     <!-- Card area -->
-    <div class="container container-fluid mb-5 d-flex justify-content-center">
+    <section class="container container-fluid mb-5 d-flex justify-content-center">
+
       <div class="row">
         <!-- Divider and header -->
         <!-- <div class="mb-5"> -->
@@ -94,7 +114,7 @@
         <!-- Solid divider -->
         <!-- <hr class="solid bg-dark" /> -->
         <!-- </div> -->
-        <h2></h2>
+
         <div class="card-deck">
           <!-- Card 1 -->
           <div class="card col-sm-12 col-md-6 col-lg-4 text-center">
@@ -118,6 +138,28 @@
           <!-- Card 1 end -->
 
           <!-- Card 2 -->
+
+          <div class="card col-lg-4 text-center">
+            <img
+              class="card-img-bottom"
+              src="/images/My-Portfolio.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">CSS portfolio project</h5>
+              <p class="card-text">
+                This is a project i completed primarily using CSS to create a
+                responsive portfolio website.
+              </p>
+              <p class="card-text">
+                <a href="#" class="btn">Click here</a>
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2 end -->
+
+          <!-- Card 3 -->
           <div class="card col-lg-4 text-center">
             <img
               class="card-img-bottom"
@@ -132,57 +174,46 @@
               </p>
               <p class="card-text">
                 <a href="#" class="btn"></a>
-
-                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
               </p>
             </div>
           </div>
-
-          <!-- Card 2 end -->
-
-          <!-- Card 3 -->
-          <div class="card col-lg-4text-center">
-            <img
-              class="card-img-bottom"
-              src="/images/My-Portfolio.png"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">CSS portfilio project</h5>
-              <p class="card-text">
-                This is a project i completed primarily using CSS to create a
-                responsive portfolio website.
-              </p>
-              <p class="card-text">
-                <a href="#" class="btn">Click here</a>
-
-                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-              </p>
-            </div>
-          </div>
-
           <!-- Card 3 end -->
         </div>
+        <!-- Card row end -->
       </div>
-    </div>
+    </section>
     <!-- Card container end -->
 
-    <!-- Jumbotron-->
-    <div id="contact" class="jumbotron mb-2 jumbotron-fluid text-center text-light">
-   
-      <h1 class="display-4">Contact Me</h1>
-      <p class="lead">
+    <!-- Jumbotron 3 resume section-->
+    <section
+      id="resume"
+      class="jumbotron jumbotron-fluid text-center text-dark mb-0 p-4"
+    >
+      <h1 class="display-4">Resume</h1>
+      <p class="lead"></p>
+      <hr class="my-4 margin-hr" />
 
-      </p>
-      <hr class="my-4" />
+      <a class="btn btn-primary btn-lg" href="#" role="button"
+        >Link to resume</a
+      >
+    </section>
+
+    <!-- Jumbotron 4 contact me section-->
+    <section
+      id="contact"
+      class="jumbotron jumbotron-fluid text-center text-light mb-0 p-4"
+    >
+      <h1 class="display-4">Contact Me</h1>
+      <p class="lead"></p>
+
       <p>Email: anthony.mills132@gmail.com</p>
       <p>Tel: 07494 174 939</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="page-footer fixed-bottom font-small bg-dark pt-4">
-      <div class="footer-copyright text-light text-center py-3">
+    <footer class="page-footer font-small bg-dark pt-4">
+    
+      <div class="footer-copyright text-light text-center py-3 pt-5">
         © 2022 Copyright: <a class="text-light" href="/"> Anthony Mills</a>
       </div>
     </footer>
