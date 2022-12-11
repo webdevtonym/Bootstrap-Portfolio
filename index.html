@@ -14,15 +14,17 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <title>Anthony Mills Portfolio</title>
   </head>
   <body>
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      
-        <!-- Navbar brand -->
-        <a class="navbar-brand text-light" href="#">Anthony Mills</a>
+      <!-- Navbar brand -->
+      <a class="navbar-brand  text-light" href="#">Anthony Mills</a>
 
       <button
         class="navbar-toggler"
@@ -36,7 +38,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-
         <!-- Collapse button -->
 
         <!-- Collapsible content -->
@@ -44,7 +45,7 @@
         <!-- Links -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">About me </a>
+            <a class="nav-link text-light" href="#work">About me </a>
           </li>
 
           <li class="nav-item">
@@ -52,7 +53,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Contact Me</a>
+            <a class="nav-link text-light" href="#contact">Contact Me</a>
           </li>
 
           <li class="nav-item">
@@ -63,36 +64,40 @@
     </nav>
 
     <!-- Jumbotron main-->
-    <div class="jumbotron jumbotron-fluid text-center text-light">
+    <section
+      class="jumbotron mt-5 mx-auto jumbotron-fluid text-center text-light"
+    >
       <img
         src="./images/portfolio-img.jpeg"
-        style="max-width: 10%"
-        class="img-responsive rounded-circle"
+        style="max-width: 20%"
+        class="img-responsive rounded-circle mb-4"
         alt="portfolio-image"
       />
-      <h1 class="display-4">Web developer</h1>
-      <p class="lead">
+      <h1 class="display-4">Web Developer</h1>
+      <p class="lead mx-5">
         My name is Anthony Mills and I am a Web Developer who specialises in
         making great websites using HTML, CSS, Javascript and Bootstrap
       </p>
       <hr class="my-4" />
-      <p>Take a look at my work below.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </div>
+    </section>
+    <!--Jumbotron end -->
+
+    <h2 id="work"
+    class="text-center mb-3">My Work</h2>
 
     <!-- Card area -->
-    <div class="container d-flex justify-content-center center-block">
-      <div class="row col-lg-10 mx-auto">
+    <div class="container container-fluid mb-5 d-flex justify-content-center">
+      <div class="row">
         <!-- Divider and header -->
-        <div class="mb-5">
-          <h6 class="text-uppercase justify-content-center">My Work</h6>
-          <!-- Solid divider -->
-          <hr class="solid bg-dark" />
-        </div>
-
+        <!-- <div class="mb-5"> -->
+        <!-- <h6 class="text-uppercase justify-content-center">My Work</h6> -->
+        <!-- Solid divider -->
+        <!-- <hr class="solid bg-dark" /> -->
+        <!-- </div> -->
+        <h2></h2>
         <div class="card-deck">
           <!-- Card 1 -->
-          <div class="card text-center" style="width: 18rem">
+          <div class="card col-sm-12 col-md-6 col-lg-4 text-center">
             <img
               class="card-img-bottom"
               src="/images/calcuator.webp"
@@ -113,7 +118,7 @@
           <!-- Card 1 end -->
 
           <!-- Card 2 -->
-          <div class="card text-center">
+          <div class="card col-lg-4 text-center">
             <img
               class="card-img-bottom"
               src="/images/Project2.png"
@@ -136,7 +141,7 @@
           <!-- Card 2 end -->
 
           <!-- Card 3 -->
-          <div class="card text-center">
+          <div class="card col-lg-4text-center">
             <img
               class="card-img-bottom"
               src="/images/My-Portfolio.png"
@@ -163,20 +168,15 @@
     <!-- Card container end -->
 
     <!-- Jumbotron-->
-    <div class="jumbotron jumbotron-fluid text-center text-light">
-      <img
-        src=""
-        style="max-width: 25%"
-        class="img-responsive rounded-circle"
-        alt="portfolio-image"
-      />
-      <h1 class="display-4"></h1>
+    <div id="contact" class="jumbotron mb-2 jumbotron-fluid text-center text-light">
+   
+      <h1 class="display-4">Contact Me</h1>
       <p class="lead">
-        My name is Anthony Mills and I am a Web Developer who specialises in
-        making great websites using HTML, CSS, Javascript and Bootstrap
+
       </p>
       <hr class="my-4" />
-      <p>Take a look at my work below.</p>
+      <p>Email: anthony.mills132@gmail.com</p>
+      <p>Tel: 07494 174 939</p>
       <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
 
