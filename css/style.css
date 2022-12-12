@@ -54,3 +54,22 @@ footer {
     margin-top: auto;
     height: 20vh;
 }
+
+.footer-copyright {
+    margin-top: 30px;
+
+
+}
+
+.git:hover {
+    background-color: white;
+}
+
+.linked:hover {
+    background-color: white;
+}
+
+.whats:hover {
+    background-color: white;
+}
+
