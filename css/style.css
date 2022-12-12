@@ -5,8 +5,15 @@
     background-repeat: no-repeat;
     background-size: contain;
     line-height: 3;
+    height: 100vh;
+    padding-top: 15vh;
     /* padding-top: 190px; */
     
+}
+
+#about {
+    line-height: 4;
+
 }
 
 #contact {
