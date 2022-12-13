@@ -69,12 +69,12 @@
     <!-- Jumbotron main-->
     <section
       id="jumbo-main"
-      class="jumbotron  d-flex flex-column justify-content-center align-items-center jumbotron-fluid text-center text-light"
+      class="jumbotron d-flex flex-column justify-content-center align-items-center jumbotron-fluid text-center text-light mb-0"
     >
       <img
         src="./images/portfolio-img.jpeg"
         style="max-width: 15%"
-        class="img-responsive rounded-circle mb-4 "
+        class="img-responsive rounded-circle mb-4"
         alt="portfolio-image"
       />
       <h1 class="display-4" style="font-size: 5vw">Web Developer</h1>
@@ -87,26 +87,21 @@
     <!--Jumbotron end -->
 
     <!-- Jumbotron 2 About Me section-->
-    <div
+    <section
       id="about"
-      class="jumbotron jumbotron-fluid 
-      text-center text-dark bg-light 
-      mb-5 p-4 pt-5
-      flex-column justify-content-center align-items-center
-      "
+      class="jumbotron jumbotron-fluid text-center text-dark bg-light mb-5 p-4 pt-5 flex-column justify-content-center align-items-center"
     >
       <h1 class="display-4">About Me</h1>
-    <hr class="my-4 margin-hr" />
+      <hr class="my-4 margin-hr" />
 
-      <p class="d-flex justify-content-center"> My name is Anthony Mills, passionate about web development and
-        technology.</p>
-      <p class="d-flex justify-content-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-        possimus dolore minima modi laudantium optio dolor atque aperiam
-        voluptatibus. Qui pariatur illo quibusdam autem vitae sint nostrum,
-        culpa sunt beatae!
+      <p class="">
+        My name is Anthony Mills, passionate about web development and
+        technology. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eligendi magni eos modi incidunt architecto. Magnam laboriosam, optio
+        labore quis dolore id cum rerum quas, nostrum perferendis error
+        obcaecati, perspiciatis facilis!
       </p>
-    </div>
+    </section>
 
     <h2 id="work" class="text-center mb-3">My Work</h2>
     <hr class="my-4 margin-hr" />
@@ -195,8 +190,7 @@
     <!-- Jumbotron 3 resume section-->
     <section
       id="resume"
-      class="jumbotron jumbotron-fluid text-center text-dark mb-0 p-4 bg-light
-       flex-column justify-content-center align-items-center"
+      class="jumbotron jumbotron-fluid text-center text-dark mb-0 bg-light flex-column justify-content-center align-items-center"
     >
       <h1 class="display-4">Resume</h1>
       <p class="lead"></p>
@@ -210,7 +204,7 @@
     <!-- Jumbotron 4 contact me section-->
     <section
       id="contact"
-      class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-light mb-0 "
+      class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-light mb-0"
     >
       <h1 class="display-4">Contact Me</h1>
       <p class="lead"></p>
@@ -220,17 +214,36 @@
     </section>
 
     <!-- Footer -->
-    <footer class="page-footer font-small bg-dark d-flex flex-column justify-content-center align-items-center pt-4">
-      <div class="text-center pt-3 socials" >
-        <img class="git"
-        src="/images/github-sign.png" style="max-width:35px;" alt="">
-        <img class="linked" 
-        src="/images/linkedin.png" style="max-width: 35px;" alt="">
-        <img class="whats"
-        src="/images/whatsapp.png" style="max-width: 35px;" alt="">
-      </div>
-      <div class="footer-copyright text-light text-center py-3 pt-5">
-        © 2022 Copyright: <a class="text-light" href="/"> Anthony Mills</a>
+    <footer
+      class="page-footer font-small bg-dark d-flex flex-column justify-content-center align-items-center pt-4"
+    >
+      <div class="container">
+        <div class="row d-flex flex-column justify-content-center align-items-center">
+          <div class="text-center socials">
+            <a href="https://github.com/webdevtonym" target="_blank"
+              ><img
+                class="git"
+                src="/images/github-sign.png"
+                style="max-width: 35px"
+                alt=""
+            /></a>
+            <img
+              class="linked"
+              src="/images/linkedin.png"
+              style="max-width: 35px"
+              alt=""
+            />
+            <img
+              class="whats"
+              src="/images/whatsapp.png"
+              style="max-width: 35px"
+              alt=""
+            />
+          </div>
+          <div class="footer-copyright text-light text-center py-3 pt-5">
+            © 2022 Copyright: <a class="text-light" href="/"> Anthony Mills</a>
+          </div>
+        </div>
       </div>
     </footer>
 
